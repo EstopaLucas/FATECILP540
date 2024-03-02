@@ -12,7 +12,12 @@
 
     <script>
         document.querySelector("#enviar")
-        .addEventListener("click", mudarValor)
+        .addEventListener("click", mudarValor);
+
+        function mudarValor(){
+            document.querySelector("#valor")
+            .value = "novo conteúdo"
+        }
     </script>
 </body>
 </html>
