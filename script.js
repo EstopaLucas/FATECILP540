@@ -10,6 +10,9 @@ function abrirMenu(){
     }
     else {
         menu.classList.add("active");
-        listras.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>"
+        listras.querySelector("a").innerHTML = 
+        "<i class='fas fa-bars'></i>"
     }
 }
+
+listras.addEventListener("click", abrirMenu);
