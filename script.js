@@ -15,3 +15,13 @@ function abrirMenu(){
 }
 
 listras.addEventListener("click", abrirMenu);
+
+function abrirSubmenu(){
+
+}
+
+for (let item in itens){
+    if(item.querySelector(".submenu")){
+        item.addEventListener("click",abrirSubmenu)
+    }
+}
