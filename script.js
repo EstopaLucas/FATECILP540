@@ -11,7 +11,7 @@ function abrirMenu(){
     else {
         menu.classList.add("active");
         listras.querySelector("a").innerHTML = 
-        "<i class='fas fa-bars'></i>"
+        "<i class='fas fa-times'></i>"
     }
 }
 
