@@ -22,3 +22,22 @@ nav a{
 .menu, .submenu {
     list-style-type: none;
 }
+
+#logo{
+    font-size: 1.25em;
+}
+
+.item.button:hover{
+    background-color: blue;
+}
+
+.item:not(button) a:hover {
+    color: darkgray;
+}
+
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
