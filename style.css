@@ -72,3 +72,12 @@ nav a{
     display: block;
 }
 
+.tem-submenu > a::after{
+    font-family: "Font awesome 5 free";
+    font-size: 0.75em;
+    line-height: 1em;
+    font-weight: 900;
+    content: "\f078";
+    color: #fff;
+    padding-left: 0.3125em;
+}
