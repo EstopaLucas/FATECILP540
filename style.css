@@ -39,5 +39,28 @@ nav a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
+}
+
+menu li a{
+    padding: 1em;
+}
+
+#listras{
+    order: 1;
+    font-size: 1.25em;
+}
+
+.item.button{
+    order: 2;
+}
+
+.item{
+    order: 3;
+    display: none;
+
+}
+
+.active .item{
+    display: block;
 }
